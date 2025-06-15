@@ -15,9 +15,9 @@ Backpropagation is the core algorithm used to train neural networks by efficient
 
 3. **Parameter Update:**  
    - Parameters are updated (e.g., via **Stochastic Gradient Descent (SGD)**) to minimize the loss:
-     \[
+     $$\[
      \theta := \theta - \eta \frac{\partial L}{\partial \theta}
-     \]
+     \]$$
    - This process iteratively improves the network’s predictions.
 
 ### 🧠 The Computational Graph View
